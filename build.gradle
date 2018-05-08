@@ -41,6 +41,9 @@ dependencies {
 
     // Needed for Async Logging with Log4j 2
     compile("com.lmax:disruptor:3.3.6")
+    //To make restapi documentation using swagger
+    compile("io.springfox:springfox-swagger2:2.6.1")
+    compile("io.springfox:springfox-swagger-ui:2.6.1")
 }
 
 // In this section you declare where to find the dependencies of your project

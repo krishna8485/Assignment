@@ -1,63 +1,33 @@
-angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', function($scope, $http){
+angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootScope',
+    function flightCtrl ($scope, $http, $rootScope){
     var self = this;
-
-    // list of `state` value/display objects
-    //self.states        = loadAll();
-    //self.selectedItem  = null;
-    //self.searchText    = null;
-    self.querySearch   = querySearch;
-
-    // ******************************
-    // Internal methods
-    // ******************************
-
-    /**
-    * Search for states... use $timeout to simulate
-    * remote dataservice call.
-    */
-    function querySearch (query) {
-       /* var results = query ? self.states.filter( createFilterFor(query) ) : self.states;
-        var deferred = $q.defer();
-        $timeout(function () { deferred.resolve( results ); }, Math.random() * 1000, false);
-        return deferred.promise;*/
-
-        $http.get("/responseBody?"+query)
-            .then(function(response) {
-                return 'Alabama';//response.data;
+    $scope.IsVisible = false;
+    $scope.querySearch = function() {
+        return $http.get("/getAirportNames?query="+ $scope.searchTextOrigin)
+            .then(function (response) {
+                return response.data;
             });
+
+        /*return [{name: 'london', code:'LHR'},
+            {name:'Sanfranciso', code:'SFO'}];*/
     }
 
-    /**
-    * Build `states` list of key/value pairs
-    */
-    /*function loadAll() {
-        var allStates = 'Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware,\
-              Florida, Georgia, Hawaii, Idaho, Illinois, Indiana, Iowa, Kansas, Kentucky, Louisiana,\
-              Maine, Maryland, Massachusetts, Michigan, Minnesota, Mississippi, Missouri, Montana,\
-              Nebraska, Nevada, New Hampshire, New Jersey, New Mexico, New York, North Carolina,\
-              North Dakota, Ohio, Oklahoma, Oregon, Pennsylvania, Rhode Island, South Carolina,\
-              South Dakota, Tennessee, Texas, Utah, Vermont, Virginia, Washington, West Virginia,\
-              Wisconsin, Wyoming';
+    $scope.generateTable=function() {
+        //var query  =
+        $scope.data=[
+            {
+                name : "Tiger Nixon",
+                work : "System Architect",
 
-        return allStates.split(/, +/g).map( function (state) {
-            return {
-                value: state.toLowerCase(),
-                display: state
-            };
-        });
-    }*/
+    },
+            {
+                name : "Garrett Winters",
+                work : "Accountant",
 
-    /**
-    * Create filter function for a query string
-    */
-    /*function createFilterFor(query) {
-        var lowercaseQuery = angular.lowercase(query);
+    }];
+        $scope.IsVisible=true;
 
-        return function filterFn(state) {
-            return (state.value.indexOf(lowercaseQuery) === 0);
-        };
-
-    }*/
+    }
 
 
 }]);
