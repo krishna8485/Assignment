@@ -2,14 +2,20 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
     function flightCtrl ($scope, $http, $rootScope){
     var self = this;
     $scope.IsVisible = false;
-    $scope.querySearch = function() {
-        return $http.get("/getAirportNames?query="+ $scope.searchTextOrigin)
+    $scope.searchOrigin = function() {
+        $scope.IsVisible = false;
+        return $http.get("/getAirportList?query="+ $scope.flightCtrl.searchOrigin)
             .then(function (response) {
                 return response.data;
             });
+    }
 
-        /*return [{name: 'london', code:'LHR'},
-            {name:'Sanfranciso', code:'SFO'}];*/
+    $scope.searchDestination = function() {
+            $scope.IsVisible = false;
+            return $http.get("/getAirportList?query="+ $scope.flightCtrl.searchDestination)
+                .then(function (response) {
+                    return response.data;
+                });
     }
 
     $scope.generateTable=function() {

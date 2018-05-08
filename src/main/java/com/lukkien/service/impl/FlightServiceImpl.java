@@ -24,4 +24,10 @@ public class FlightServiceImpl implements FlightService {
         flightResultDtos.add(flightResultsDto);
         return flightResultDtos;
     }
+
+    @Override
+    public List<Airport> findAirports(String airportStr) {
+        System.out.println("Service Flight*****************");
+        return flightDao.findAirports(airportStr);
+    }
 }

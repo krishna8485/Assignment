@@ -46,18 +46,11 @@ public class FlightSearchController {
         return flightsResults;
     }
 
-    @RequestMapping(value ="/getAirportNames" , method = {RequestMethod.GET, RequestMethod.POST})
+    @RequestMapping(value ="/getAirportList" , method = {RequestMethod.GET, RequestMethod.POST})
     public @ResponseBody
-    List<Airport> getAirportNames(@RequestParam(name="query", required=true) String queryString) {
+    List<Airport> getAirportList(@RequestParam(name="query", required=true) String queryString) {
         logger.info("info getAirportNames executed" +queryString);
-        //String a[] = new String[]{"abc","klm","xyz","pqr"};
-        Airport airport = new Airport("LHR", "HETHROW LONDON");
-
-        List <Airport> airportNames = new ArrayList<>();
-        airportNames.add(airport);
-        //AirportsDto an = new AirportsDto();
-        //an.setAirportNames(airportNames);
-        return airportNames;
+        return flightServiceImpl.findAirports(queryString);
     }
 
     @RequestMapping("/welcome")

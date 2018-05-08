@@ -7,5 +7,6 @@ import java.util.List;
 
 public interface FlightService {
     List<FlightResultsDto> findFlights(Airport arrival, Airport destination);
+    List<Airport> findAirports(String airportStr);
 }
 
