@@ -5,16 +5,22 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
     $scope.searchOrigin = function() {
         $scope.IsVisible = false;
         return $http.get("/getAirportList?query="+ $scope.flightCtrl.searchOrigin)
-            .then(function (response) {
-                return response.data;
-            });
+            .then(function successCallback(response) {
+            return response.data;
+        }, function errorCallback(response) {
+            console.log(response.data);
+            return response.data;
+        });
     }
 
     $scope.searchDestination = function() {
             $scope.IsVisible = false;
-            return $http.get("/getAirportList?query="+ $scope.flightCtrl.searchDestination)
-                .then(function (response) {
-                    return response.data;
+            return $http.get("/getAirportLists?query="+ $scope.flightCtrl.searchDestination)
+                .then(function successCallback(response) {
+                    return response.data.data;
+                }, function errorCallback(response) {
+                    console.log(response.data);
+                    return [];
                 });
     }
 

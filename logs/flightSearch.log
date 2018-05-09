@@ -2701,3 +2701,1593 @@ java.lang.ArrayIndexOutOfBoundsException: 11
 2018-05-09 00:47:46.298  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executeddenma
 2018-05-09 00:47:55.851  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedamr
 2018-05-09 00:47:58.531  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedamr
+2018-05-09 07:03:58.786  INFO Krishnass-MacBook-Pro.local --- [       Thread-5] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@fa36558: startup date [Wed May 09 00:47:13 IST 2018]; root of context hierarchy
+2018-05-09 07:03:58.820  INFO Krishnass-MacBook-Pro.local --- [       Thread-5] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed beans on shutdown
+2018-05-09 22:03:56.419  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-09 22:03:56.440  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-09 22:03:56.441  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-09 22:03:56.457  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-09 22:03:56.690  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:03:56.692  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:03:56.692  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:03:56.699  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-09 22:03:56.706  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-09 22:03:58.784  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-09 22:03:58.812  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-09 22:04:05.201  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-09 22:04:46.895  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedLHR
+2018-05-09 22:10:14.402  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-09 22:10:14.424  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-09 22:10:14.425  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-09 22:10:14.443  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-09 22:10:14.675  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:10:14.677  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:10:14.678  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:10:14.683  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-09 22:10:14.688  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-09 22:10:16.754  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-09 22:10:16.785  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-09 22:11:31.448  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-09 22:12:19.884  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedlhr
+2018-05-09 22:13:17.396  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-09 22:13:17.414  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-09 22:13:17.416  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-09 22:13:17.428  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-09 22:13:17.639  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:13:17.641  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:13:17.642  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:13:17.646  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-09 22:13:17.651  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-09 22:13:19.654  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-09 22:13:19.680  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-09 22:13:30.881  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-09 22:13:37.959  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedlht
+2018-05-09 22:14:30.966  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-09 22:14:30.984  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-09 22:14:30.985  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-09 22:14:30.999  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-09 22:14:31.208  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:14:31.210  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:14:31.211  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 22:14:31.214  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-09 22:14:31.220  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-09 22:14:33.374  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-09 22:14:33.426  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-09 22:14:36.115  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-09 22:14:42.686  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedlhr
+2018-05-09 22:16:46.254  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedlhr
+2018-05-09 22:16:49.170  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedlhr
+2018-05-09 22:56:22.615  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedlhr
+2018-05-09 23:46:54.000  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-09 23:46:54.024  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-09 23:46:54.024  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-09 23:46:54.036  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-09 23:46:54.302  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 23:46:54.304  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 23:46:54.305  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 23:46:54.310  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-09 23:46:54.314  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-09 23:46:56.478  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-09 23:46:56.511  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-09 23:47:05.293  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-09 23:51:10.551  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-09 23:51:10.571  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-09 23:51:10.572  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-09 23:51:10.588  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-09 23:51:10.805  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 23:51:10.806  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 23:51:10.807  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 23:51:10.810  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-09 23:51:10.816  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-09 23:51:12.944  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-09 23:51:12.972  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-09 23:51:19.154  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-09 23:51:26.508  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedLHR
+2018-05-09 23:52:15.624  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedLHR
+2018-05-09 23:52:19.106  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedlhr
+2018-05-09 23:52:46.123  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedlhr
+2018-05-09 23:52:50.459  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedAAA
+2018-05-09 23:52:58.155  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-09 23:52:58.156  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:52:58.156  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-09 23:52:58.156  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:52:58.387  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedDenk
+2018-05-09 23:53:00.066  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-09 23:53:00.066  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:53:00.066  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-09 23:53:00.066  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:53:00.355  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedDenm
+2018-05-09 23:53:00.355  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:53:00.355  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:53:00.625  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedDenma
+2018-05-09 23:53:00.626  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:53:00.626  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:53:00.883  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedDenmak
+2018-05-09 23:53:01.110  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedDenmakr
+2018-05-09 23:55:36.317  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedDenmakr
+2018-05-09 23:55:43.464  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedDenmakr
+2018-05-09 23:55:46.688  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-09 23:55:46.688  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:55:46.688  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-09 23:55:46.688  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:55:47.688  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedDenm
+2018-05-09 23:55:47.689  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:55:47.689  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:55:47.919  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedDenma
+2018-05-09 23:55:47.919  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:55:47.919  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:55:48.111  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedDenmak
+2018-05-09 23:55:48.254  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedDenmakr
+2018-05-09 23:58:36.179  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-09 23:58:36.195  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-09 23:58:36.195  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-09 23:58:36.209  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-09 23:58:36.433  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 23:58:36.435  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 23:58:36.435  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-09 23:58:36.442  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-09 23:58:36.447  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-09 23:58:38.465  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-09 23:58:38.491  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-09 23:59:16.002  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-09 23:59:16.227  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedDenmakr
+2018-05-09 23:59:18.340  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedDenmakr
+2018-05-09 23:59:51.708  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-09 23:59:51.708  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:59:51.708  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-09 23:59:51.708  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:59:51.709  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-09 23:59:52.423  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-09 23:59:52.423  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:59:52.423  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:59:52.424  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-09 23:59:54.383  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executeddenma
+2018-05-09 23:59:54.384  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:59:54.384  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:59:54.384  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-09 23:59:54.559  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executeddenmak
+2018-05-09 23:59:54.833  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executeddenmakr
+2018-05-09 23:59:56.663  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executeddenmak
+2018-05-09 23:59:56.896  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executeddenma
+2018-05-09 23:59:56.897  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:59:56.897  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:59:56.897  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-09 23:59:57.238  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-09 23:59:57.238  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:59:57.238  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:59:57.238  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-09 23:59:57.646  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-09 23:59:57.647  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:59:57.647  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-09 23:59:57.647  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:59:57.647  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-09 23:59:59.487  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-09 23:59:59.487  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-09 23:59:59.487  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-09 23:59:59.488  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-09 23:59:59.488  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:01.229  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedDenm
+2018-05-10 00:00:01.230  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:01.230  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:01.230  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:03.037  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedDenma
+2018-05-10 00:00:03.038  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:03.038  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:03.038  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:03.215  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedDenmar
+2018-05-10 00:00:03.215  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:03.215  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:03.215  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:03.367  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedDenmark
+2018-05-10 00:00:03.367  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:03.367  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:03.368  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:04.479  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkk
+2018-05-10 00:00:05.150  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkk
+2018-05-10 00:00:05.831  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkk
+2018-05-10 00:00:06.372  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkk
+2018-05-10 00:00:06.639  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkk
+2018-05-10 00:00:06.880  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkk
+2018-05-10 00:00:07.114  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkk
+2018-05-10 00:00:07.338  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkk
+2018-05-10 00:00:07.670  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkkk
+2018-05-10 00:00:07.926  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkkkk
+2018-05-10 00:00:08.135  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkkkkk
+2018-05-10 00:00:08.406  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkkkkkk
+2018-05-10 00:00:08.589  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkkkkkkk
+2018-05-10 00:00:08.830  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkkkkkkkk
+2018-05-10 00:00:09.261  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkkkkkkk
+2018-05-10 00:00:09.764  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkkkkkk
+2018-05-10 00:00:09.857  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkkkkk
+2018-05-10 00:00:09.942  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkkkk
+2018-05-10 00:00:10.041  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkkk
+2018-05-10 00:00:10.122  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkkk
+2018-05-10 00:00:10.183  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkkk
+2018-05-10 00:00:10.278  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkkk
+2018-05-10 00:00:10.348  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkkk
+2018-05-10 00:00:10.442  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkkk
+2018-05-10 00:00:10.530  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkkk
+2018-05-10 00:00:10.612  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkkk
+2018-05-10 00:00:10.690  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedDenmarkk
+2018-05-10 00:00:10.777  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedDenmark
+2018-05-10 00:00:10.778  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:10.778  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:10.778  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:10.858  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedDenmar
+2018-05-10 00:00:10.858  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:10.858  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:10.858  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:10.934  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedDenma
+2018-05-10 00:00:10.935  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:10.935  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:10.935  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:11.020  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedDenm
+2018-05-10 00:00:11.020  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:11.020  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:11.020  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:11.101  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:00:11.102  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:11.102  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:00:11.102  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:11.102  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:15.952  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:00:15.952  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:15.953  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:00:15.953  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:17.576  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedDenm
+2018-05-10 00:00:17.576  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:17.576  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:17.841  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedDenma
+2018-05-10 00:00:17.841  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:17.841  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:18.087  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedDenmak
+2018-05-10 00:00:18.253  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedDenmakr
+2018-05-10 00:00:18.890  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedDenmak
+2018-05-10 00:00:19.094  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedDenma
+2018-05-10 00:00:19.095  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:19.095  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:19.560  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedDenmar
+2018-05-10 00:00:19.560  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:19.560  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:19.686  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedDenmark
+2018-05-10 00:00:19.687  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:19.687  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:20.105  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedDenmar
+2018-05-10 00:00:20.105  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:20.105  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:20.303  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedDenma
+2018-05-10 00:00:20.304  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:20.304  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:20.526  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedDenm
+2018-05-10 00:00:20.526  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:20.526  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:20.723  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:00:20.724  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:20.724  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:00:20.724  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:31.658  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedDEn
+2018-05-10 00:00:31.658  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:31.658  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:00:31.658  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:31.658  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:35.343  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-10 00:00:35.343  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:35.343  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:00:35.343  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:35.343  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:36.239  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-10 00:00:36.239  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:36.239  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:36.240  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:36.913  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executeddenma
+2018-05-10 00:00:36.914  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:36.914  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:36.914  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:37.351  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executeddenmak
+2018-05-10 00:00:38.472  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executeddenma
+2018-05-10 00:00:38.473  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:38.473  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:38.473  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:38.918  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-10 00:00:38.918  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:38.919  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:38.919  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:39.391  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-10 00:00:39.392  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:39.392  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:00:39.392  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:39.392  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:00:42.463  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedenm
+2018-05-10 00:00:42.463  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:00:42.463  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:00:42.463  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:02:22.900  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-10 00:02:22.900  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:02:22.900  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:02:22.900  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:02:22.900  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:03:10.196  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-10 00:03:10.196  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:03:10.196  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:03:10.196  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:03:10.196  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:04:10.638  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:04:10.658  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-10 00:04:10.659  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-10 00:04:10.674  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-10 00:04:10.894  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:04:10.896  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:04:10.897  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:04:10.902  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-10 00:04:10.908  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-10 00:04:12.936  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:04:12.965  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-10 00:04:51.639  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-10 00:05:01.164  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:05:01.166  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:05:01.167  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:05:01.167  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:05:01.169  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:05:05.962  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:05:05.963  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:05:05.963  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:05:05.963  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:05:05.963  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:05:11.738  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:05:11.738  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:05:11.738  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:05:11.738  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:05:16.101  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:05:16.101  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:05:16.101  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:05:16.101  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:05:33.447  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedaks
+2018-05-10 00:05:33.480  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedaksl
+2018-05-10 00:05:33.613  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedaksld
+2018-05-10 00:05:33.675  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedaksldf
+2018-05-10 00:05:33.747  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedaksldfj
+2018-05-10 00:05:34.625  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjl
+2018-05-10 00:05:34.680  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjls
+2018-05-10 00:05:34.829  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsd
+2018-05-10 00:05:34.913  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdf
+2018-05-10 00:05:35.137  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfa
+2018-05-10 00:05:35.150  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfas
+2018-05-10 00:05:35.282  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasd
+2018-05-10 00:05:35.298  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdk
+2018-05-10 00:05:35.380  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkf
+2018-05-10 00:05:35.545  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfs
+2018-05-10 00:05:35.661  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsd
+2018-05-10 00:05:35.687  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdk
+2018-05-10 00:05:35.746  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkf
+2018-05-10 00:05:35.777  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkfj
+2018-05-10 00:05:35.962  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkfjs
+2018-05-10 00:05:36.063  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkfjsd
+2018-05-10 00:05:36.129  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkfjsdj
+2018-05-10 00:05:36.206  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkfjsdjf
+2018-05-10 00:05:36.395  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkfjsdjfl
+2018-05-10 00:05:57.367  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkfjsdjfl
+2018-05-10 00:05:58.224  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkfjsdjfl
+2018-05-10 00:06:01.446  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkfjsdjfl
+2018-05-10 00:07:20.001  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:07:20.052  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-10 00:07:20.053  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-10 00:07:20.081  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-10 00:07:20.416  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:07:20.418  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:07:20.419  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:07:20.427  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-10 00:07:20.436  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-10 00:07:22.980  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:07:23.005  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-10 00:09:53.140  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-10 00:09:53.475  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkfjsdjfl
+2018-05-10 00:09:55.252  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedaksldfjlsdfasdkfsdkfjsdjfl
+2018-05-10 00:09:59.723  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedakl
+2018-05-10 00:09:59.724  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AKL , name=Auckland - Auckland International Airport  New Zealand
+2018-05-10 00:09:59.724  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:09:59.743  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedakls
+2018-05-10 00:09:59.906  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedaklsd
+2018-05-10 00:10:00.036  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedaklsdf
+2018-05-10 00:10:05.671  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedaklsdf
+2018-05-10 00:10:06.213  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedaklsd
+2018-05-10 00:10:06.464  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedakls
+2018-05-10 00:10:06.665  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedakl
+2018-05-10 00:10:06.665  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AKL , name=Auckland - Auckland International Airport  New Zealand
+2018-05-10 00:10:06.665  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:10:08.985  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedaaa
+2018-05-10 00:10:18.332  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-10 00:10:18.332  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:10:18.332  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:10:18.333  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:10:18.333  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:10:22.098  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedaar
+2018-05-10 00:10:22.098  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:10:22.098  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:34:08.637  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:34:08.657  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-10 00:34:08.658  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-10 00:34:08.673  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-10 00:34:08.892  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:34:08.894  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:34:08.895  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:34:08.901  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-10 00:34:08.908  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-10 00:34:11.143  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:34:11.178  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-10 00:34:23.749  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-10 00:34:50.049  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedlhr
+2018-05-10 00:34:57.251  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedlhr
+2018-05-10 00:34:58.871  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedlhr
+2018-05-10 00:35:18.103  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedlhr
+2018-05-10 00:35:21.168  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedLHR
+2018-05-10 00:35:27.251  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-10 00:35:27.251  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:35:27.251  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:35:27.252  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:35:27.843  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-10 00:35:27.843  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:35:27.844  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:35:29.177  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-10 00:35:29.178  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:35:29.178  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:37:04.400  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-10 00:37:04.400  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:37:04.400  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:37:04.400  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:37:04.401  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:37:05.316  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-10 00:37:05.317  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:37:05.317  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:37:05.317  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:37:05.740  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executeddenmk
+2018-05-10 00:37:07.659  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-10 00:37:07.659  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:37:07.660  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:37:07.660  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:37:08.629  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-10 00:37:08.630  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:37:08.630  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:37:08.630  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:37:08.630  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:37:13.546  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:37:13.547  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:37:13.547  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:37:13.547  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:38:22.748  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:38:22.748  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:38:22.748  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:38:22.748  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:38:26.297  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:38:26.297  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:38:26.297  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:38:26.298  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:38:36.424  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:38:36.424  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:38:36.425  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:38:36.425  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:38:38.443  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedDen
+2018-05-10 00:38:38.443  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:38:38.443  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:38:38.443  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:39:40.509  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:39:40.527  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-10 00:39:40.528  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-10 00:39:40.540  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-10 00:39:40.753  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:39:40.754  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:39:40.755  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:39:40.763  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-10 00:39:40.769  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-10 00:39:42.760  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:39:42.788  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-10 00:40:02.442  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-10 00:40:08.266  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedkjh
+2018-05-10 00:40:08.522  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedkjhg
+2018-05-10 00:40:08.758  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedkjhgg
+2018-05-10 00:43:37.241  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:43:37.264  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-10 00:43:37.265  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-10 00:43:37.284  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-10 00:43:37.492  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:43:37.494  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:43:37.495  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:43:37.502  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-10 00:43:37.508  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-10 00:43:39.591  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:43:39.622  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-10 00:52:05.163  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:52:05.181  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-10 00:52:05.182  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-10 00:52:05.197  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-10 00:52:05.419  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:52:05.420  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:52:05.421  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:52:05.429  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-10 00:52:05.434  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-10 00:52:07.780  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:52:07.815  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-10 00:52:08.122  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-10 00:53:24.388  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-10 00:53:24.404  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:53:24.404  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:53:24.404  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:53:24.409  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:53:24.707  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-10 00:53:24.708  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:53:24.708  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:53:24.708  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:53:25.868  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-10 00:53:25.868  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:53:25.868  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:53:25.869  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-10 00:53:28.445  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedden
+2018-05-10 00:53:28.445  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:53:28.445  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-10 00:53:28.445  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:53:28.809  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-10 00:53:28.810  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:53:28.810  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:53:29.822  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executeddenm
+2018-05-10 00:53:29.822  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-10 00:53:29.822  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-10 00:53:36.916  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedarhus ,Denmark(AAR)
+2018-05-10 00:53:37.076  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedrhus ,Denmark(AAR)
+2018-05-10 00:53:37.281  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedhus ,Denmark(AAR)
+2018-05-10 00:53:37.780  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedus ,Denmark(AAR)
+2018-05-10 00:53:37.866  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executeds ,Denmark(AAR)
+2018-05-10 00:53:37.957  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executed,Denmark(AAR)
+2018-05-10 00:53:38.120  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedDenmark(AAR)
+2018-05-10 00:53:38.206  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedenmark(AAR)
+2018-05-10 00:53:38.288  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executednmark(AAR)
+2018-05-10 00:53:38.373  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedmark(AAR)
+2018-05-10 00:53:38.454  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedark(AAR)
+2018-05-10 00:53:38.538  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedrk(AAR)
+2018-05-10 00:53:38.622  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedk(AAR)
+2018-05-10 00:53:38.705  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executed(AAR)
+2018-05-10 00:53:38.806  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedAAR)
+2018-05-10 00:53:38.875  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedAR)
+2018-05-10 00:53:40.861  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedklk
+2018-05-10 00:53:41.110  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedklkl
+2018-05-10 00:53:41.128  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedklklk
+2018-05-10 00:53:41.143  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedklklks
+2018-05-10 00:53:41.273  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedklklksd
+2018-05-10 00:53:41.489  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedklklksdf
+2018-05-10 00:53:44.924  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedAarhus k,Denmark(AAR)
+2018-05-10 00:53:45.000  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedAarhus kl,Denmark(AAR)
+2018-05-10 00:53:45.016  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedAarhus kls,Denmark(AAR)
+2018-05-10 00:53:45.258  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedAarhus klsj,Denmark(AAR)
+2018-05-10 00:53:45.268  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedAarhus klsjd,Denmark(AAR)
+2018-05-10 00:53:45.321  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedAarhus klsjdf,Denmark(AAR)
+2018-05-10 00:53:45.337  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedAarhus klsjdfl,Denmark(AAR)
+2018-05-10 00:56:43.697  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:56:43.732  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-10 00:56:43.733  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-10 00:56:43.761  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-10 00:56:44.168  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:56:44.184  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:56:44.185  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:219)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:149)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-05-10 00:56:44.208  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-10 00:56:44.215  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-10 00:56:48.422  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-10 00:56:48.487  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-10 00:56:48.627  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-10 00:56:53.713  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedhbj
+2018-05-10 00:56:53.736  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedhbjh
+2018-05-10 00:56:54.082  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedhbjhh
+2018-05-10 00:56:54.092  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedhbjhhj
+2018-05-10 00:56:54.503  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedhbjhhjg
+2018-05-10 00:56:54.671  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedhbjhhjgh
+2018-05-10 00:56:54.794  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedhbjhhjghj
+2018-05-10 00:56:58.513  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedhgj
+2018-05-10 00:56:58.749  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : info getAirportNames executedhgjg
+2018-05-10 00:56:58.858  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedhgjgj
+2018-05-10 00:56:58.887  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedhgjgjh
+2018-05-10 00:57:02.075  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info getAirportNames executedhbjhhjghj

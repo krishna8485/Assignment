@@ -20,7 +20,7 @@
     <script src="js/flight/flightSearchCtrl.js"></script>
 </head>
 <body ng-controller="flightCtrl" data-ng-app="flightapp">
-<form name="searchForm" ng-submit="$event.preventDefault()" >
+
 <div ng-cloak>
     <md-content>
         <md-tabs md-dynamic-height md-border-bottom>
@@ -120,6 +120,6 @@
         </md-tabs>
     </md-content>
 </div>
-</form>
+
 </body>
 </html>

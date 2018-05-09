@@ -44,6 +44,10 @@ dependencies {
     //To make restapi documentation using swagger
     compile("io.springfox:springfox-swagger2:2.6.1")
     compile("io.springfox:springfox-swagger-ui:2.6.1")
+
+    //ESAPI Security
+    compile("org.owasp.esapi:esapi:2.1.0.1")
+    compile("org.springframework.boot:spring-boot-starter-cache:${springBootVersion}")
 }
 
 // In this section you declare where to find the dependencies of your project

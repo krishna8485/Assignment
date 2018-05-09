@@ -1,26 +1,30 @@
 package com.lukkien.dao.impl;
 
 import com.lukkien.dao.FlightDAO;
-import com.lukkien.dto.FlightResultsDto;
+import com.lukkien.model.FlightResultsResponse;
 import com.lukkien.model.Airport;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.stereotype.Repository;
+import springfox.documentation.annotations.Cacheable;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 @Repository("flightDoaImpl")
 public class FlightDAOImpl implements FlightDAO{
 
+    private static final Logger logger = LogManager.getLogger(FlightDAOImpl.class);
+
     @Override
-    public List<FlightResultsDto> findFlights(Airport arrival, Airport destination) {
+    public List<FlightResultsResponse> findFlights(Airport arrival, Airport destination) {
         return null;
     }
 
+    @Cacheable("airport")
     @Override
     public List<Airport> findAirports(String airportStr ) {
 
@@ -28,36 +32,23 @@ public class FlightDAOImpl implements FlightDAO{
 
         String line = "";
         String cvsSplitBy = ",";
-        Map<String, Airport> airportMap = new HashMap<>();
+        List<Airport> airportList = new ArrayList<Airport>();
         try (BufferedReader br = new BufferedReader(new FileReader(airportCodesCSV))) {
             while ((line = br.readLine()) != null) {
 
                 if(line.toLowerCase().contains(airportStr.toLowerCase())){
-                    //System.out.println(airportStr);
-                   // System.out.println(line);
                     String[] airport = line.split(cvsSplitBy);
-                   /*// if (airport.length ==13) {
-                    if(airport[1].contains("airport")) {
-                        System.out.println("**********" + line);
-                        airportMap.put(airport[11], new Airport(airport[11], airport[2], airport[8], airport[7], airport[6]));
-                        System.out.println("Airport [code= " + airport[2] + " , name=" + airport[9] + "  " + airport[11]);
-                        //}}
-                    }*/
-
-                    airportMap.put(airport[2], new Airport(airport[2], airport[0], airport[1]));
-                    System.out.println("Airport [code= " + airport[2] + " , name=" + airport[0] + "  " + airport[1]);
+                    airportList.add(new Airport(airport[2], airport[0], airport[1]));
+                    logger.info("Airport [code= " + airport[2] + " , name=" + airport[0] + "  " + airport[1]);
 
                 }
 
             }
 
         } catch (IOException e) {
-            System.out.println("DAO Flight*****************2.1");
-            //Log.
+            logger.error("Exception", e);
         }
-        List<Airport> airports= new ArrayList<Airport>(airportMap.values());
-        System.out.println("DAO Flight*****************   " + airports.size());
-        return airports;
+        return airportList;
 
     }
 }
