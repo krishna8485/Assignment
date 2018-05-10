@@ -1,8 +1,8 @@
 package com.lukkien.service.impl;
 
 import com.lukkien.dao.FlightDAO;
-import com.lukkien.model.FlightResultsResponse;
 import com.lukkien.model.Airport;
+import com.lukkien.model.SearchResult;
 import com.lukkien.service.FlightService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -20,12 +20,9 @@ public class FlightServiceImpl implements FlightService {
     FlightDAO flightDao;
 
     @Override
-    public List<FlightResultsResponse> findFlights(Airport arrival, Airport destination) {
+    public List<SearchResult> findFlights(String origin, String destination) {
 
-        FlightResultsResponse  flightResultsDto = new FlightResultsResponse ("LHR", "SFO", "34 USD");
-        List flightResultDtos = new ArrayList<FlightResultsResponse>();
-        flightResultDtos.add(flightResultsDto);
-        return flightResultDtos;
+        return flightDao.findFlights(origin,  destination);
     }
 
 

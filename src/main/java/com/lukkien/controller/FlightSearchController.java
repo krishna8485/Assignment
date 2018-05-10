@@ -1,8 +1,9 @@
 package com.lukkien.controller;
 import com.lukkien.Exception.NotFoundException;
-import com.lukkien.model.FlightResultsResponse;
+import com.lukkien.model.AiportsResponse;
 import com.lukkien.model.Airport;
-import com.lukkien.model.JsonResponse;
+import com.lukkien.model.SearchResult;
+import com.lukkien.model.SearchResultsResponse;
 import com.lukkien.service.FlightService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -29,37 +30,54 @@ public class FlightSearchController {
     private static final Logger logger = LogManager.getLogger(FlightSearchController.class);
 
 
-    private final AtomicLong counter = new AtomicLong();
-    private static final String template = "Hello, %s!";
-
-    //Website
-    //Statics
-    //Spring restful-- completed
-    //Spring boot -- completed
+    @RequestMapping(value = "/addFlights", method = RequestMethod.POST)
+    public ResponseEntity<SearchResult> addFlight(@RequestBody
+                                                 Airport origin, Airport destination) {
+       logger.info("addFlights");
+        return new ResponseEntity<>(HttpStatus.CREATED);
+    }
+    @RequestMapping(value = "/addFlights", method = RequestMethod.POST)
+    public ResponseEntity<SearchResult> addFlight(@RequestBody SearchResult searchResult) {
+        logger.info("addFlight" + searchResult.toString());
+        return new ResponseEntity<>(searchResult, HttpStatus.CREATED);
+    }
+    /**
+     *
+     * @param origin
+     * @param destination
+     * @return
+     * @throws NotFoundException
+     */
     @RequestMapping(value ="/getResults" , method = RequestMethod.GET)
     public @ResponseBody
-    List<FlightResultsResponse> getResults(@RequestParam("departure")
-                                                 Airport departure, @RequestParam("arrival")
-            Airport arrival) {
-        logger.info("info flight search executed");
-        List<FlightResultsResponse> flightsResults = flightServiceImpl.findFlights(departure, arrival);
+    ResponseEntity<SearchResultsResponse> getResults(@RequestParam("origin")
+                                                 String origin, @RequestParam("destination")
+            String destination) throws NotFoundException {
+        logger.info("info flight search executed" + origin +" " +destination);
+        List<SearchResult> flightsResults = flightServiceImpl.findFlights(origin, destination);
         logger.info("flightResultsDTo "+ flightsResults.toString());
-        return flightsResults;
+        if (flightsResults.size() >0 ){
+            SearchResultsResponse searchResultsResponse = new SearchResultsResponse
+                    (new Date (), "","", flightsResults);
+            logger.info("info flight results are more" );
+            return new ResponseEntity<>(searchResultsResponse, HttpStatus.OK);
+        } else {
+            throw new NotFoundException("No Data");
+        }
     }
 
-    @RequestMapping(value ="/getAirportList" , method = {RequestMethod.GET, RequestMethod.POST})
-    public @ResponseBody
-    List<Airport> getAirportList(@RequestParam(name="query", required=true) String queryString) {
-        logger.info("info getAirportNames executed" +queryString);
-        return flightServiceImpl.findAirports(queryString);
-    }
-
+    /**
+     *
+     * @param queryString
+     * @return
+     * @throws NotFoundException
+     */
     @RequestMapping(value ="/getAirportLists" , method = {RequestMethod.GET, RequestMethod.POST})
     public @ResponseBody
-    ResponseEntity<JsonResponse> getAirportLists(@RequestParam(name="query", required=true) String queryString) throws NotFoundException {
+    ResponseEntity<AiportsResponse> getAirportLists(@RequestParam(name="query", required=true) String queryString) throws NotFoundException {
         logger.info("info getAirportNames executed" +queryString);
         List<Airport> airportList= flightServiceImpl.findAirports(queryString);
-        JsonResponse jsonResponse = new JsonResponse(new Date (), "","", airportList);
+        AiportsResponse jsonResponse = new AiportsResponse(new Date (), "","", airportList);
         if (airportList.size() >0 ){
             logger.info("info getAirportNames are more" );
             return new ResponseEntity<>(jsonResponse, HttpStatus.OK);
@@ -68,6 +86,10 @@ public class FlightSearchController {
         }
     }
 
+    /**
+     *
+     * @return
+     */
     @RequestMapping("/welcome")
     public ModelAndView homePage() {
         return new ModelAndView("FlightSearch");

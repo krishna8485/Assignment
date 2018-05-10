@@ -2,78 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56844195-56b6-49ec-9972-5136fe1e4006" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/model/JsonResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/model/SearchResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airport-codes.numbers" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/controller/FlightSearchApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/controller/FlightSearchApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/controller/FlightSearchController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/controller/FlightSearchController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/controller/FlightSearchResults.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/dao/FlightDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/dao/FlightDAO.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/dao/impl/FlightDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/dao/impl/FlightDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/dto/AirportsDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/dto/FlightResultsDto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/model/FlightResultsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/model/FlightSearchResults.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/model/JsonResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/model/SearchRequest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/service/FlightService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/service/FlightService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/service/impl/FlightServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/lukkien/service/impl/FlightServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/LUKKIEN_Assignment.jar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/resources/main/static/js/flight/flightSearchCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/static/js/flight/flightSearchCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/flightSearch.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/flightSearch.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/bootJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/flightSearch.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchResults.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/model/FlightSearchResults.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/dao/FlightDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/dao/FlightDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/dao/impl/FlightDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/dao/impl/FlightDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/dto/AirportsDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/dto/FlightResultsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/model/FlightResultsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/model/FlightResultsResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/model/SearchResultsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/model/FlightSearchResults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/model/JsonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/model/AiportsResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/model/SearchRequest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/service/FlightService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/service/FlightService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lukkien/service/impl/FlightServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lukkien/service/impl/FlightServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-grid.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap-reboot.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.bundle.min.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/bootstrap.min.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/flight/flightSearchCtrl.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/flight/flightSearchCtrl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch_latestbkp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -108,38 +71,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FlightSearch_latestbkp.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch_latestbkp.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-end-line="23" selection-end-column="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlightSearch.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1209">
-              <caret line="122" column="7" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/flight/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FlightSearchController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="67" column="9" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="67" selection-end-column="9" />
+            <state relative-caret-position="270">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,59 +83,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlightSearchResults.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/FlightSearchResults.java">
+      <file leaf-file-name="FlightSearch.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="2205">
+              <caret line="147" column="85" selection-start-line="147" selection-start-column="70" selection-end-line="147" selection-end-column="85" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlightSearch_tabs.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch_tabs.jsp">
+      <file leaf-file-name="Airport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/Airport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1068">
-              <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JsonResponse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/JsonResponse.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+            <state relative-caret-position="195">
+              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#171#172#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
                 <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#293#294#0" expanded="true" />
-                <element signature="e#327#328#0" expanded="true" />
-                <element signature="e#357#358#0" expanded="true" />
-                <element signature="e#403#404#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#475#476#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#589#590#0" expanded="true" />
-                <element signature="e#627#628#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#701#702#0" expanded="true" />
-                <element signature="e#733#734#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FlightServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/service/impl/FlightServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="34" column="37" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -208,17 +112,29 @@
       <file leaf-file-name="flightSearchCtrl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/flight/flightSearchCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" lean-forward="true" selection-end-column="12" />
+            <state relative-caret-position="159">
+              <caret line="80" column="75" selection-start-line="80" selection-start-column="75" selection-end-line="80" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlightSearch_bkp1.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch_bkp1.jsp">
+      <file leaf-file-name="flightSearch.log" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/logs/flightSearch.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="9" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="60">
+              <caret line="251" column="307" selection-start-line="251" selection-start-column="267" selection-end-line="251" selection-end-column="307" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="49" column="84" selection-start-line="49" selection-start-column="84" selection-end-line="49" selection-end-column="84" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -229,8 +145,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -669,7 +585,7 @@
       <map>
         <entry key="$PROJECT_DIR$" value="6101969047000" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1537300965" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="3283357463" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="1098587544" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3754488298" />
         <entry key="$PROJECT_DIR$/../gRPCExample" value="6080969101000" />
@@ -946,20 +862,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/HelloWorldController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/HelloWorldApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/controller/HelloWorldController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/HelloWorldApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/Greeting.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/views/FlightSearch.html" />
         <option value="$PROJECT_DIR$/src/main/resources/views/welcome.txt" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearch.java" />
         <option value="$PROJECT_DIR$/src/main/resources/views/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/FlightSearchResults.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/FlightSreachApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSreachApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/static/js/flight/app.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/controller/AirportName.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/DTO/AirportName.java" />
@@ -968,22 +876,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/dto/FlightDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/dto/AirportNamesDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/service/impl/TestFlightService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchApplication.java" />
-        <option value="$PROJECT_DIR$/logs/flightSearch.log" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/DAO/FlightDAO.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/lukkien/dao/FlightDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/FlightDAO.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/model/Airport.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/dto/AirportsDto.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/dto/AirportResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/dto/FlightResultsDto.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/dao/FlightDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/dao/impl/FlightDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/service/FlightService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/service/impl/FlightServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/Exception/Custome.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/model/AirportResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/Exception/CustomizedExceptionExceptionHandler.java" />
@@ -991,12 +892,27 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/Exception/JsonResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/Exception/ErrorResponse.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lukkien/Exception/CustomizedExceptionHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/model/JsonResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/static/js/flight/flightSearchCtrl.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/tabs.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch_tabs.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/model/JsonResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/model/FlightResultsResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/model/SearchRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/model/FlightSearchResults.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/model/SearchResults.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/service/FlightService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/service/impl/FlightServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/dao/FlightDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/model/SearchResultsResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/Business/Impl/FlightBusiness.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/Business/Business.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/dao/impl/FlightDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/model/Airport.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/static/js/flight/flightSearchCtrl.js" />
+        <option value="$PROJECT_DIR$/logs/flightSearch.log" />
       </list>
     </option>
   </component>
@@ -1009,7 +925,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="713" />
@@ -1020,6 +936,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1027,84 +945,11 @@
               <item name="LUKKIEN_Assignment" type="b2602c69:ProjectViewProjectNode" />
               <item name="LUKKIEN_Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="LUKKIEN_Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LUKKIEN_Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LUKKIEN_Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LUKKIEN_Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LUKKIEN_Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LUKKIEN_Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="LUKKIEN_Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LUKKIEN_Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LUKKIEN_Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LUKKIEN_Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lukkien" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LUKKIEN_Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LUKKIEN_Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="lukkien" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LUKKIEN_Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LUKKIEN_Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LUKKIEN_Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LUKKIEN_Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LUKKIEN_Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LUKKIEN_Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LUKKIEN_Assignment" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LUKKIEN_Assignment" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1323,23 +1168,24 @@
       <workItem from="1525495958812" duration="30925000" />
       <workItem from="1525695330998" duration="8669000" />
       <workItem from="1525791849013" duration="14370000" />
-      <workItem from="1525877665713" duration="11837000" />
+      <workItem from="1525877665713" duration="12146000" />
+      <workItem from="1525915859516" duration="13044000" />
+      <workItem from="1525938575293" duration="380000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93153000" />
+    <option name="totallyTimeSpent" value="106886000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="713" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50078124" side_tool="true" weight="0.02347418" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50078124" side_tool="true" weight="0.022727273" />
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info anchor="bottom" id="Build" order="8" weight="0.32792208" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -1349,14 +1195,14 @@
       <window_info anchor="bottom" id="Messages" order="11" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32954547" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.32954547" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49921876" visible="true" weight="0.2786207" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32954547" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49921876" weight="0.5211039" />
       <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32954547" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7552083" visible="true" weight="0.22374798" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.5519481" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7552083" visible="true" weight="0.31098545" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="6" />
@@ -1368,16 +1214,18 @@
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32792208" />
+      <window_info anchor="bottom" id="Build" order="8" weight="0.32792208" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="1" />
     </layout>
     <layout-to-restore>
+      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.32954547" />
       <window_info anchor="bottom" id="Build" order="8" weight="0.32792208" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49921876" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49921876" visible="true" weight="0.29220778" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -1392,13 +1240,12 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="right" x="0" y="0" width="270" height="513" id="Documentation" order="11" side_tool="true" weight="0.32956383" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32792208" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="right" id="Gradle" order="6" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7552083" weight="0.29159936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7552083" visible="true" weight="0.15670437" />
       <window_info anchor="right" id="Database" order="5" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info id="Web" order="6" side_tool="true" />
@@ -1406,9 +1253,9 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.39906102" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32792208" />
       <window_info anchor="right" id="Bean Validation" order="9" />
-      <window_info anchor="bottom" id="Run Dashboard" order="16" weight="0.32954547" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39906102" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1430,20 +1277,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../gRPCExample/build/resources/main/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="14" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/dao/FlightDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1455,9 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1465,9 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1510,7 +1337,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/controller/HomeController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/FlightSearchResults.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/SearchResult.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
@@ -1547,6 +1374,8 @@
           <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1613,51 +1442,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/controller/HomeController.java" />
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="49" column="84" selection-start-line="49" selection-start-column="84" selection-end-line="49" selection-end-column="84" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/service/FlightService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/FlightResultsResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/Exception/CustomizedExceptionHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="146">
@@ -1677,41 +1462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/SearchRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/dao/FlightDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/dao/impl/FlightDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="40" column="31" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1093#1102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/flightSearch.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27564">
-          <caret line="1393" column="46" selection-start-line="1393" selection-start-column="46" selection-end-line="1393" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/Exception/ErrorResponse.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -1722,113 +1472,190 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/Airport.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch_bkp1.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+        <state relative-caret-position="270">
+          <caret line="18" column="9" selection-start-line="15" selection-start-column="6" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch_latestbkp.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="61" selection-start-line="23" selection-end-line="23" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/service/impl/FlightServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch_tabs.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="34" column="37" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="169">
+          <caret line="101" column="50" selection-start-line="101" selection-start-column="44" selection-end-line="101" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/JsonResponse.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/SearchRequest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/AiportsResponse.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#171#172#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#293#294#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#403#404#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#475#476#0" expanded="true" />
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#589#590#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#701#702#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="67" column="9" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="67" selection-end-column="9" />
+        <state relative-caret-position="285">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="80" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/FlightSearchResults.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/welcome.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="5863">
+          <caret line="422" column="7" selection-start-line="422" selection-start-column="7" selection-end-line="422" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/flight/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="46" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="46" />
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/flight/flightSearchCtrl.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/service/FlightService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-end-column="12" />
+        <state relative-caret-position="45">
+          <caret line="3" column="37" lean-forward="true" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch_bkp1.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/service/impl/FlightServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="18" column="9" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch_tabs.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/dao/FlightDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1068">
-          <caret line="104" column="28" selection-start-line="104" selection-start-column="28" selection-end-line="104" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="4" column="37" lean-forward="true" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch_latestbkp.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/Business/Impl/FlightBusiness.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="23" column="61" lean-forward="true" selection-start-line="23" selection-end-line="23" selection-end-column="61" />
+        <state relative-caret-position="60">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/Business/Business.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/dao/impl/FlightDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/SearchResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-294">
+          <caret line="4" column="25" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="25" />
+          <folding>
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#478#479#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#630#631#0" expanded="true" />
+            <element signature="e#684#685#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/SearchResultsResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="50" column="41" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/model/Airport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/FlightSearch.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1209">
-          <caret line="122" column="7" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="7" />
+        <state relative-caret-position="2205">
+          <caret line="147" column="85" selection-start-line="147" selection-start-column="70" selection-end-line="147" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lukkien/controller/FlightSearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/flight/flightSearchCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="80" column="75" selection-start-line="80" selection-start-column="75" selection-end-line="80" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/flightSearch.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="251" column="307" selection-start-line="251" selection-start-column="267" selection-end-line="251" selection-end-column="307" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="49" column="84" selection-start-line="49" selection-start-column="84" selection-end-line="49" selection-end-column="84" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

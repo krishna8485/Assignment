@@ -37,7 +37,7 @@
                                 <md-autocomplete flex required
                                                  md-input-name="autoCmpltOriginField"
                                                  md-input-minlength="3"
-                                                 md-input-maxlength="40"
+                                                 md-input-maxlength="50"
                                                  md-no-cache="flightCtrl.noCache"
                                                  md-selected-item="flightCtrl.selectedItemOrigin"
                                                  md-search-text="flightCtrl.searchOrigin"
@@ -61,7 +61,7 @@
                                 <md-autocomplete flex required
                                                  md-input-name="autocompleteField"
                                                  md-input-minlength="3"
-                                                 md-input-maxlength="40"
+                                                 md-input-maxlength="50"
                                                  md-no-cache="flightCtrl.noCache"
                                                  md-selected-item="flightCtrl.selectedItemDestination"
                                                  md-search-text="flightCtrl.searchDestination"
@@ -82,9 +82,11 @@
                                         <div ng-message="maxlength">Your entry is too long.</div>
                                     </div>
                                 </md-autocomplete>
-                                <md-button ng-disabled="!(!!flightCtrl.searchDestination && !! flightCtrl.searchOrigin)" class="md-raised md-primary" ng-click="generateTable()">Search</md-button>
                             </div>
+                            <md-button ng-disabled="!(!!flightCtrl.selectedItemOrigin && !! flightCtrl.selectedItemDestination)" class="md-raised md-primary" ng-click="generateTable()">Search</md-button>
                         </md-content>
+
+
 
                         <div class="panel-body">
                             <table class="table table-bordered bordered table-striped table-condensed datatable" ui-jq="dataTable" ui-options="dataTableOpt" ng-show="IsVisible">
@@ -97,7 +99,7 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr ng-repeat="n in data">
+                                <tr ng-repeat="n in flightList">
                                     <td>{{$index+1}}</td>
                                     <td>{{n.origin}}</td>
                                     <td>{{n.destination}}</td>
@@ -111,10 +113,77 @@
             </md-tab>
             <md-tab label="Add Flights">
                 <md-content class="md-padding">
-                    <h1 class="md-display-2">Add Flights Tab</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue. Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus. In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec, feugiat ultricies mi. Aliquam erat volutpat. Nam placerat, tortor in ultrices porttitor, orci enim rutrum enim, vel tempor sapien arcu a tellus. Vivamus convallis sodales ante varius gravida. Curabitur a purus vel augue ultrices ultricies id a nisl. Nullam malesuada consequat diam, a facilisis tortor volutpat et. Sed urna dolor, aliquet vitae posuere vulputate, euismod ac lorem. Sed felis risus, pulvinar at interdum quis, vehicula sed odio. Phasellus in enim venenatis, iaculis tortor eu, bibendum ante. Donec ac tellus dictum neque volutpat blandit. Praesent efficitur faucibus risus, ac auctor purus porttitor vitae. Phasellus ornare dui nec orci posuere, nec luctus mauris semper.</p>
-                    <p>Morbi viverra, ante vel aliquet tincidunt, leo dolor pharetra quam, at semper massa orci nec magna. Donec posuere nec sapien sed laoreet. Etiam cursus nunc in condimentum facilisis. Etiam in tempor tortor. Vivamus faucibus egestas enim, at convallis diam pulvinar vel. Cras ac orci eget nisi maximus cursus. Nunc urna libero, viverra sit amet nisl at, hendrerit tempor turpis. Maecenas facilisis convallis mi vel tempor. Nullam vitae nunc leo. Cras sed nisl consectetur, rhoncus sapien sit amet, tempus sapien.</p>
-                    <p>Integer turpis erat, porttitor vitae mi faucibus, laoreet interdum tellus. Curabitur posuere molestie dictum. Morbi eget congue risus, quis rhoncus quam. Suspendisse vitae hendrerit erat, at posuere mi. Cras eu fermentum nunc. Sed id ante eu orci commodo volutpat non ac est. Praesent ligula diam, congue eu enim scelerisque, finibus commodo lectus.</p>
+
+                    <div layout="row">
+                        <md-autocomplete flex required
+                                         md-input-name="autoCmpltOriginAddField"
+                                         md-input-minlength="3"
+                                         md-input-maxlength="50"
+                                         md-no-cache="flightCtrl.noCache"
+                                         md-selected-item="flightCtrl.selectedAddOrigin"
+                                         md-search-text="flightCtrl.searchAddOrigin"
+                                         md-items="item in searchAddOrigin(flightCtrl.searchAddOrigin)"
+                                         md-item-text="item.airportName+ ' ,' + item.country+ '(' +item.iataCode +')'"
+                                         md-require-match="true"
+                                         md-min-length="3"
+                                         md-autofocus="true"
+                                         md-autoselect="true"
+                                         md-floating-label="Origin">
+                            <md-item-template>
+                                <span md-highlight-text="flightCtrl.searchAddOrigin">{{item.airportName+ ',' + item.country +'(' +item.iataCode+')' }}</span>
+                            </md-item-template>
+                            <div ng-messages="searchForm.autoCmpltOriginAddField.$error" ng-if="searchForm.autoCmpltOriginAddField.$touched">
+                                <div ng-message="required">You <b>must</b> have a origin.</div>
+                                <div ng-message="md-require-match">Please select an existing origin.</div>
+                                <div ng-message="minlength">Your entry is not long enough.</div>
+                                <div ng-message="maxlength">Your entry is too long.</div>
+                            </div>
+                        </md-autocomplete>
+
+                        <md-autocomplete flex required
+                                         md-input-name="autoCmpltOriginDesField"
+                                         md-input-minlength="3"
+                                         md-input-maxlength="50"
+                                         md-no-cache="flightCtrl.noCache"
+                                         md-selected-item="flightCtrl.selectedAddDest"
+                                         md-search-text="flightCtrl.searchAddDest"
+                                         md-items="item in searchAddDest(flightCtrl.searchAddDest)"
+                                         md-item-text="item.airportName+ ' ,' + item.country+ '(' +item.iataCode +')'"
+                                         md-require-match="true"
+                                         md-min-length="3"
+                                         md-autofocus="true"
+                                         md-autoselect="true"
+                                         md-floating-label="Destination">
+                            <md-item-template>
+                                <span md-highlight-text="flightCtrl.searchAddDest">{{item.airportName+ ',' + item.country +'(' +item.iataCode+')' }}</span>
+                            </md-item-template>
+                            <div ng-messages="searchForm.autoCmpltOriginDesField.$error" ng-if="searchForm.autoCmpltOriginAddField.$touched">
+                                <div ng-message="required">You <b>must</b> have a destination.</div>
+                                <div ng-message="md-require-match">Please select an existing destination.</div>
+                                <div ng-message="minlength">Your entry is not long enough.</div>
+                                <div ng-message="maxlength">Your entry is too long.</div>
+                            </div>
+                        </md-autocomplete>
+                    </div>
+
+
+                    <md-input-container class="md-block">
+                        <label>Fare (USD)</label>
+                        <input required type="number"  name="fare" ng-model="fare"  ng-pattern="/^1234/" />
+
+                        <div ng-messages="searchForm.fare.$error">
+                            <div ng-message="required">
+                                You've got to charge something! You can't just <b>give away</b> a Missile Defense
+                                System.
+                            </div>
+
+                        </div>
+                    </md-input-container>
+
+                    <div>
+                        <md-button ng-disabled="!(!!flightCtrl.selectedAddDest && !!flightCtrl.selectedAddOrigin)" class="md-raised md-primary" ng-click="addFlight()">Submit</md-button>
+                    </div>
+
                 </md-content>
             </md-tab>
         </md-tabs>
