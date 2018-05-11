@@ -42,14 +42,14 @@
                                                  md-selected-item="flightCtrl.selectedItemOrigin"
                                                  md-search-text="flightCtrl.searchOrigin"
                                                  md-items="item in searchOrigin(flightCtrl.searchOrigin)"
-                                                 md-item-text="item.airportName+ ' ,' + item.country+ '(' +item.iataCode +')'"
+                                                 md-item-text="item.airportName+ ' ,' + item.country+ ',' +item.iataCode "
                                                  md-require-match="true"
                                                  md-min-length="3"
                                                  md-autofocus="true"
                                                  md-autoselect="true"
                                                  md-floating-label="Origin">
                                     <md-item-template>
-                                        <span md-highlight-text="flightCtrl.searchOrigin">{{item.airportName+ ',' + item.country +'(' +item.iataCode+')' }}</span>
+                                        <span md-highlight-text="flightCtrl.searchOrigin">{{item.airportName+ ',' + item.country +' ,' +item.iataCode }}</span>
                                     </md-item-template>
                                     <div ng-messages="searchForm.autoCmpltOriginField.$error" ng-if="searchForm.autoCmpltOriginField.$touched">
                                         <div ng-message="required">You <b>must</b> have a origin.</div>
@@ -66,14 +66,14 @@
                                                  md-selected-item="flightCtrl.selectedItemDestination"
                                                  md-search-text="flightCtrl.searchDestination"
                                                  md-items="item in searchDestination(flightCtrl.searchDestination)"
-                                                 md-item-text="item.airportName+ ' ,' + item.country+ '(' +item.iataCode +')'"
+                                                 md-item-text="item.airportName+ ' ,' + item.country+ ',' +item.iataCode "
                                                  md-require-match="true"
                                                  md-min-length="3"
                                                  md-autofocus="true"
                                                  md-autoselect="true"
                                                  md-floating-label="Destination">
                                     <md-item-template>
-                                        <span md-highlight-text="flightCtrl.searchDestination">{{item.airportName+ ',' + item.country +'(' +item.iataCode+')'}}</span>
+                                        <span md-highlight-text="flightCtrl.searchDestination">{{item.airportName+ ',' + item.country +' ,' +item.iataCode }}</span>
                                     </md-item-template>
                                     <div ng-messages="searchForm.autocompleteField.$error" ng-if="searchForm.autocompleteField.$touched">
                                         <div ng-message="required">You <b>must</b> have a destination.</div>
@@ -95,7 +95,7 @@
                                     <th>#</th>
                                     <th>Origin</th>
                                     <th>Destination</th>
-                                    <th>Fare</th>
+                                    <th>Fare (USD)</th>
                                 </tr>
                                 </thead>
                                 <tbody>
@@ -123,14 +123,14 @@
                                          md-selected-item="flightCtrl.selectedAddOrigin"
                                          md-search-text="flightCtrl.searchAddOrigin"
                                          md-items="item in searchAddOrigin(flightCtrl.searchAddOrigin)"
-                                         md-item-text="item.airportName+ ' ,' + item.country+ '(' +item.iataCode +')'"
+                                         md-item-text="item.airportName+ ' ,' + item.country+ ' ,' +item.iataCode"
                                          md-require-match="true"
                                          md-min-length="3"
                                          md-autofocus="true"
                                          md-autoselect="true"
                                          md-floating-label="Origin">
                             <md-item-template>
-                                <span md-highlight-text="flightCtrl.searchAddOrigin">{{item.airportName+ ',' + item.country +'(' +item.iataCode+')' }}</span>
+                                <span md-highlight-text="flightCtrl.searchAddOrigin">{{item.airportName+ ',' + item.country +' ,' +item.iataCode  }}</span>
                             </md-item-template>
                             <div ng-messages="searchForm.autoCmpltOriginAddField.$error" ng-if="searchForm.autoCmpltOriginAddField.$touched">
                                 <div ng-message="required">You <b>must</b> have a origin.</div>
@@ -148,14 +148,14 @@
                                          md-selected-item="flightCtrl.selectedAddDest"
                                          md-search-text="flightCtrl.searchAddDest"
                                          md-items="item in searchAddDest(flightCtrl.searchAddDest)"
-                                         md-item-text="item.airportName+ ' ,' + item.country+ '(' +item.iataCode +')'"
+                                         md-item-text="item.airportName+ ' ,' + item.country+ ' ,' +item.iataCode "
                                          md-require-match="true"
                                          md-min-length="3"
                                          md-autofocus="true"
                                          md-autoselect="true"
                                          md-floating-label="Destination">
                             <md-item-template>
-                                <span md-highlight-text="flightCtrl.searchAddDest">{{item.airportName+ ',' + item.country +'(' +item.iataCode+')' }}</span>
+                                <span md-highlight-text="flightCtrl.searchAddDest">{{item.airportName+ ',' + item.country +' ,' +item.iataCode }}</span>
                             </md-item-template>
                             <div ng-messages="searchForm.autoCmpltOriginDesField.$error" ng-if="searchForm.autoCmpltOriginAddField.$touched">
                                 <div ng-message="required">You <b>must</b> have a destination.</div>

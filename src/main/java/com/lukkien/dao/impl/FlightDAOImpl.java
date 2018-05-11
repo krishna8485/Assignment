@@ -1,5 +1,6 @@
 package com.lukkien.dao.impl;
 
+import com.lukkien.Exception.ApplicationServiceException;
 import com.lukkien.dao.FlightDAO;
 import com.lukkien.model.Airport;
 import com.lukkien.model.SearchResult;
@@ -20,21 +21,30 @@ public class FlightDAOImpl implements FlightDAO{
 
     private static final Logger logger = LogManager.getLogger(FlightDAOImpl.class);
 
+    /**
+     *
+     * @param originIataCode
+     * @param destIataCode
+     * @return
+     */
     @Override
-    public List<SearchResult> findFlights(String arrival, String destination) {
-
-        List searchResultsList = new ArrayList<SearchResult>();
-        for (int i=0; i<=50; i++){
-            SearchResult  searchResults = new SearchResult
-                    ("LHR"+i, "SFO"+i, "34 USD");
-            searchResultsList.add(searchResults);
+    public List<SearchResult> findFlights(String originIataCode, String destIataCode)  {
+        logger.info("iDAO findFlights");
+        List<SearchResult> searchResults= flightMap.get(originIataCode+"-"+destIataCode);
+        if(searchResults==null ) {
+            searchResults = new ArrayList<SearchResult>();
         }
-        return searchResultsList;
+        return searchResults;
     }
 
+    /**
+     *
+     * @param airportStr
+     * @return
+     */
     @Cacheable("airport")
     @Override
-    public List<Airport> findAirports(String airportStr ) {
+    public List<Airport> findAirports(String airportStr ) throws ApplicationServiceException {
 
         String airportCodesCSV = "/Users/krishnasfamily/Documents/GitHub/LUKKIEN_Assignment/airport-codes.csv";
 
@@ -43,20 +53,39 @@ public class FlightDAOImpl implements FlightDAO{
         List<Airport> airportList = new ArrayList<Airport>();
         try (BufferedReader br = new BufferedReader(new FileReader(airportCodesCSV))) {
             while ((line = br.readLine()) != null) {
-
                 if(line.toLowerCase().contains(airportStr.toLowerCase())){
                     String[] airport = line.split(cvsSplitBy);
                     airportList.add(new Airport(airport[2], airport[0], airport[1]));
                     logger.info("Airport [code= " + airport[2] + " , name=" + airport[0] + "  " + airport[1]);
-
                 }
-
             }
-
         } catch (IOException e) {
-            logger.error("Exception", e);
+            throw new ApplicationServiceException(e, "interrupted I/O operations");
         }
         return airportList;
+
+    }
+
+    /**
+     *
+     * @param originAirport
+     * @param destAirport
+     * @param fare
+     */
+    @Override
+    public void addFlight(Airport originAirport, Airport destAirport, String fare) {
+        String originIC = originAirport.getIataCode();
+        String destIC = destAirport.getIataCode();
+        List<SearchResult> searchResults = flightMap.get(originIC+"-"+destIC);
+        if (searchResults !=null){
+            searchResults.add(new SearchResult(originIC,destIC, fare));
+            logger.info("new Flight details added to existing list"+ searchResults.toString());
+        } else {
+            searchResults = new ArrayList<>();
+            searchResults.add(new SearchResult(originIC,destIC, fare));
+            flightMap.put(originIC+"-"+destIC, searchResults);
+            logger.info("new Flight details added"+ searchResults.toString());
+        }
 
     }
 }

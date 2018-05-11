@@ -7,22 +7,11 @@ public class Airport implements Serializable {
 
     private  String iataCode;
     private  String airportName;
-
-    public String getCity() {
-        return city;
-    }
-
-    public String getState() {
-        return state;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
     private  String city ;
     private  String state ;
     private  String country;
+
+    public Airport() {}
 
     public  Airport(String iataCode, String airportName, String city, String state, String country) {
         this.iataCode = iataCode;
@@ -39,6 +28,18 @@ public class Airport implements Serializable {
     }
 
 
+    public String getCity() {
+        return city;
+    }
+
+    public String getState() {
+        return state;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
     public String getIataCode() {
         return iataCode;
     }
@@ -46,6 +47,28 @@ public class Airport implements Serializable {
     public String getAirportName() {
         return airportName;
     }
+
+
+    public void setIataCode(String iataCode) {
+        this.iataCode = iataCode;
+    }
+
+    public void setAirportName(String airportName) {
+        this.airportName = airportName;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
 
     @Override
     public String toString() {

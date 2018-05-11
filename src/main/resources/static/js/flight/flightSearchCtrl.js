@@ -2,6 +2,8 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
     function flightCtrl ($scope, $http, $rootScope){
     var self = this;
     $scope.IsVisible = false;
+
+    //get the airport list
     $scope.searchOrigin = function() {
         $scope.IsVisible = false;
         return $http.get("/getAirportLists?query="+ $scope.flightCtrl.searchOrigin)
@@ -13,6 +15,7 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
         });
     }
 
+    //get the airport list
     $scope.searchDestination = function() {
             $scope.IsVisible = false;
             return $http.get("/getAirportLists?query="+ $scope.flightCtrl.searchDestination)
@@ -24,9 +27,8 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
                 });
     }
 
-
+        //get the airport list
         $scope.searchAddOrigin = function() {
-            $scope.IsVisible = false;
             return $http.get("/getAirportLists?query="+ $scope.flightCtrl.searchAddOrigin)
                 .then(function successCallback(response) {
                     return response.data.data;
@@ -36,8 +38,8 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
                 });
         }
 
+        //get the airport list
         $scope.searchAddDest = function() {
-            $scope.IsVisible = false;
             return $http.get("/getAirportLists?query="+ $scope.flightCtrl.searchAddDest)
                 .then(function successCallback(response) {
                     return response.data.data;
@@ -47,6 +49,7 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
                 });
         }
 
+        //get the flight result for given origin and destination
     $scope.generateTable=function() {
         $scope.IsVisible = false;
          $http.get("/getResults?origin="+ $scope.flightCtrl.searchOrigin+"&destination="+$scope.flightCtrl.searchDestination)
@@ -60,25 +63,12 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
 
     }
 
+    //Add new origin, destination & fare details
     $scope.addFlight=function() {
 
-        searchResult = {
-            origin : $scope.flightCtrl.searchAddOrigin,
-            destination: $scope.flightCtrl.searchAddDest,
-            fare:$scope.searchForm.fare.$$rawModelValue
-        };
-
-        myJSON = JSON.stringify(searchResult);
-
-            $http.post("/addFlight",myJSON)
-                .then(function successCallback(response) {
-                    $scope.flightList= response.data.data;
-                }, function errorCallback(response) {
-                    console.log(response.data);
-                    $scope.flightList =[];
-                });
-
-        $http.post("/addFlights",myJSON,$scope.flightCtrl.selectedAddOrigin, $scope.flightCtrl.selectedAddDest)
+        var inputdata = {'originAirport': $scope.flightCtrl.selectedAddOrigin, 'destAirport': $scope.flightCtrl.selectedAddDest,
+                        fare: $scope.searchForm.fare.$$rawModelValue};
+        $http.post("/addFlights",inputdata)
             .then(function successCallback(response) {
                 $scope.flightList= response.data.data;
             }, function errorCallback(response) {
