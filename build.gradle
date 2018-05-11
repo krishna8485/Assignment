@@ -54,9 +54,14 @@ dependencies {
     //Generating report
     compile("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
 
+    //Security
+    compile ("org.owasp.esapi:esapi: 2.0.1")
+
     //Testing
     testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
     testCompile ('junit:junit:4.12')
+
+
 }
 
 // In this section you declare where to find the dependencies of your project
