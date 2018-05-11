@@ -32,22 +32,31 @@ configurations.all {
 
 //List of dependencies to load for this project
 dependencies {
+
     compile("org.springframework.boot:spring-boot-starter-web:${springBootVersion}")
-    testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
-    compile("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
+    //Log4j logging
     compile("org.springframework.boot:spring-boot-starter-log4j2:${springBootVersion}")
+    // Needed for Async Logging with Log4j 2
+    compile("com.lmax:disruptor:3.3.6")
+
     //To reslove the jsp
     compile("org.apache.tomcat.embed:tomcat-embed-jasper:8.5.6")
 
-    // Needed for Async Logging with Log4j 2
-    compile("com.lmax:disruptor:3.3.6")
     //To make restapi documentation using swagger
     compile("io.springfox:springfox-swagger2:2.6.1")
     compile("io.springfox:springfox-swagger-ui:2.6.1")
 
     //ESAPI Security
     compile("org.owasp.esapi:esapi:2.1.0.1")
+    //Enabling Caching
     compile("org.springframework.boot:spring-boot-starter-cache:${springBootVersion}")
+
+    //Generating report
+    compile("org.springframework.boot:spring-boot-starter-actuator:${springBootVersion}")
+
+    //Testing
+    testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVersion}")
+    testCompile ('junit:junit:4.12')
 }
 
 // In this section you declare where to find the dependencies of your project

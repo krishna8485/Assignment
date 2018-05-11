@@ -41,7 +41,7 @@
                                                  md-no-cache="flightCtrl.noCache"
                                                  md-selected-item="flightCtrl.selectedItemOrigin"
                                                  md-search-text="flightCtrl.searchOrigin"
-                                                 md-items="item in searchOrigin(flightCtrl.searchOrigin)"
+                                                 md-items="item in searchAirport(flightCtrl.searchOrigin)"
                                                  md-item-text="item.airportName+ ' ,' + item.country+ ',' +item.iataCode "
                                                  md-require-match="true"
                                                  md-min-length="3"
@@ -65,7 +65,7 @@
                                                  md-no-cache="flightCtrl.noCache"
                                                  md-selected-item="flightCtrl.selectedItemDestination"
                                                  md-search-text="flightCtrl.searchDestination"
-                                                 md-items="item in searchDestination(flightCtrl.searchDestination)"
+                                                 md-items="item in searchAirport(flightCtrl.searchDestination)"
                                                  md-item-text="item.airportName+ ' ,' + item.country+ ',' +item.iataCode "
                                                  md-require-match="true"
                                                  md-min-length="3"
@@ -122,7 +122,7 @@
                                          md-no-cache="flightCtrl.noCache"
                                          md-selected-item="flightCtrl.selectedAddOrigin"
                                          md-search-text="flightCtrl.searchAddOrigin"
-                                         md-items="item in searchAddOrigin(flightCtrl.searchAddOrigin)"
+                                         md-items="item in searchAirport(flightCtrl.searchAddOrigin)"
                                          md-item-text="item.airportName+ ' ,' + item.country+ ' ,' +item.iataCode"
                                          md-require-match="true"
                                          md-min-length="3"
@@ -147,7 +147,7 @@
                                          md-no-cache="flightCtrl.noCache"
                                          md-selected-item="flightCtrl.selectedAddDest"
                                          md-search-text="flightCtrl.searchAddDest"
-                                         md-items="item in searchAddDest(flightCtrl.searchAddDest)"
+                                         md-items="item in searchAirport(flightCtrl.searchAddDest)"
                                          md-item-text="item.airportName+ ' ,' + item.country+ ' ,' +item.iataCode "
                                          md-require-match="true"
                                          md-min-length="3"
@@ -169,12 +169,11 @@
 
                     <md-input-container class="md-block">
                         <label>Fare (USD)</label>
-                        <input required type="number"  name="fare" ng-model="fare"  ng-pattern="/^1234/" />
+                        <input required type="number"  name="fare" ng-model="fare"  ng-pattern="/^\d{0,9}(\.\d{1,9})?$/" />
 
-                        <div ng-messages="searchForm.fare.$error">
+                        <div ng-messages="searchForm.fare.$error.pattern">
                             <div ng-message="required">
-                                You've got to charge something! You can't just <b>give away</b> a Missile Defense
-                                System.
+                                Not valid amount!
                             </div>
 
                         </div>

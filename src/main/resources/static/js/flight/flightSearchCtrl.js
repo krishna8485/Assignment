@@ -3,44 +3,10 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
     var self = this;
     $scope.IsVisible = false;
 
-    //get the airport list
-    $scope.searchOrigin = function() {
-        $scope.IsVisible = false;
-        return $http.get("/getAirportLists?query="+ $scope.flightCtrl.searchOrigin)
-            .then(function successCallback(response) {
-            return response.data.data;
-        }, function errorCallback(response) {
-            console.log(response.data);
-            return response.data;
-        });
-    }
-
-    //get the airport list
-    $scope.searchDestination = function() {
+        //get the airport list
+        $scope.searchAirport= function(queryStr) {
             $scope.IsVisible = false;
-            return $http.get("/getAirportLists?query="+ $scope.flightCtrl.searchDestination)
-                .then(function successCallback(response) {
-                    return response.data.data;
-                }, function errorCallback(response) {
-                    console.log(response.data);
-                    return [];
-                });
-    }
-
-        //get the airport list
-        $scope.searchAddOrigin = function() {
-            return $http.get("/getAirportLists?query="+ $scope.flightCtrl.searchAddOrigin)
-                .then(function successCallback(response) {
-                    return response.data.data;
-                }, function errorCallback(response) {
-                    console.log(response.data);
-                    return response.data;
-                });
-        }
-
-        //get the airport list
-        $scope.searchAddDest = function() {
-            return $http.get("/getAirportLists?query="+ $scope.flightCtrl.searchAddDest)
+            return $http.get("/getAirportLists?query="+ queryStr)
                 .then(function successCallback(response) {
                     return response.data.data;
                 }, function errorCallback(response) {
@@ -70,10 +36,11 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
                         fare: $scope.searchForm.fare.$$rawModelValue};
         $http.post("/addFlights",inputdata)
             .then(function successCallback(response) {
-                $scope.flightList= response.data.data;
+                console.log("Success");
+                //$scope.flightList= response.data.data;
             }, function errorCallback(response) {
-                console.log(response.data);
-                $scope.flightList =[];
+                console.log(" ");
+                //$scope.flightList =[];
             });
 
     }

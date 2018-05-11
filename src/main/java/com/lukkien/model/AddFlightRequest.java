@@ -3,6 +3,7 @@ package com.lukkien.model;
 import java.util.Objects;
 
 public class AddFlightRequest {
+
     Airport originAirport;
     Airport destAirport;
     String fare;
