@@ -37,21 +37,6 @@ public class FlightSearchController {
     @ApiResponses(value={@ApiResponse(code =201, message="Created Successfully"),
                         @ApiResponse(code =500, message="Internal server Error")
     })
-    @ApiModelProperty(
-            value = "Sample Json and all fields are required",
-            example = "{\n" +
-                    "  \"destAirport\": {\n" +
-                    "    \"airportName\": \"Aarhus\",\n" +
-                    "    \"country\": \"Denmark\",\n" +
-                    "    \"iataCode\": \"AAR\",\n" +
-                    "  },\n" +
-                    "  \"fare\": \"1234\",\n" +
-                    "  \"originAirport\": {\n" +
-                    "     \"airportName\": \"Alborg\",\n" +
-                    "    \"country\": \"Denmark\",\n" +
-                    "    \"iataCode\": \"AAL\",\n" +
-                    "  },\n" +
-                    "}")
     @RequestMapping(value = "/addFlights", method = RequestMethod.POST)
     public ResponseEntity<String> addFlights(@RequestBody AddFlightRequest addFlightRequest ) {
        logger.info("addFlights"+ addFlightRequest.toString());

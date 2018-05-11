@@ -39,11 +39,11 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
                 console.log("Success");
                 //$scope.flightList= response.data.data;
             }, function errorCallback(response) {
-                console.log(" ");
+                console.log(" Added Successfully");
+                alert("Added Successfully");
                 //$scope.flightList =[];
             });
 
     }
-
 
 }]);

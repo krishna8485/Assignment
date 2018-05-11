@@ -7,34 +7,16 @@ public class Airport implements Serializable {
 
     private  String iataCode;
     private  String airportName;
-    /*private  String city ;
-    private  String state ;*/
     private  String country;
 
     public Airport() {}
 
-   /* public  Airport(String iataCode, String airportName, String city, String state, String country) {
-        this.iataCode = iataCode;
-        this.airportName = airportName;
-        this.city = city;
-        this.state = state;
-        this.country = country;
-    }*/
 
     public  Airport(String iataCode, String airportName, String country) {
         this.iataCode = iataCode;
         this.airportName = airportName;
         this.country = country;
     }
-
-
-   /* public String getCity() {
-        return city;
-    }
-
-    public String getState() {
-        return state;
-    }*/
 
     public String getCountry() {
         return country;
@@ -57,13 +39,6 @@ public class Airport implements Serializable {
         this.airportName = airportName;
     }
 
-   /* public void setCity(String city) {
-        this.city = city;
-    }
-
-    public void setState(String state) {
-        this.state = state;
-    }*/
 
     public void setCountry(String country) {
         this.country = country;
@@ -75,8 +50,6 @@ public class Airport implements Serializable {
         return "Airport{" +
                 "iataCode='" + iataCode + '\'' +
                 ", airportName='" + airportName + '\'' +
-               /* ", city='" + city + '\'' +
-                ", state='" + state + '\'' +*/
                 ", country='" + country + '\'' +
                 '}';
     }

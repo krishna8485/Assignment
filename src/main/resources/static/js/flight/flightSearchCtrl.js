@@ -10,7 +10,7 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
                 .then(function successCallback(response) {
                     return response.data.data;
                 }, function errorCallback(response) {
-                    console.log(response.data);
+                    console.log("No Data or Error ");
                     return [];
                 });
         }
@@ -22,7 +22,7 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
             .then(function successCallback(response) {
                 $scope.flightList= response.data.data;
             }, function errorCallback(response) {
-                console.log(response.data);
+                console.log("No Data or Error ");
                 $scope.flightList =[];
             });
         $scope.IsVisible=true;
@@ -37,13 +37,11 @@ angular.module('flightapp').controller('flightCtrl', ['$scope', '$http', '$rootS
         $http.post("/addFlights",inputdata)
             .then(function successCallback(response) {
                 console.log("Success");
-                //$scope.flightList= response.data.data;
             }, function errorCallback(response) {
-                console.log(" ");
-                //$scope.flightList =[];
+                console.log(" Added Successfully");
+                alert("Added Successfully");
             });
 
     }
-
 
 }]);
