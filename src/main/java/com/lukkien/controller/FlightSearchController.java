@@ -51,7 +51,7 @@ public class FlightSearchController {
      * @return
      * @throws NotFoundException, BadRequestException
      */
-    @ApiOperation(value="To get flight search", response=SearchResultsResponse.class )
+    @ApiOperation(value="To get flight results", response=SearchResultsResponse.class )
     @ApiResponses(value={@ApiResponse(code =200, message="List retrived successfully"),
             @ApiResponse(code =500, message="Internal Server Error"),
             @ApiResponse(code =400, message="Input validations failed"),
@@ -81,7 +81,7 @@ public class FlightSearchController {
      * @return
      * @throws NotFoundException
      */
-    @ApiOperation(value="To get flight search", response=SearchResultsResponse.class )
+    @ApiOperation(value="To get airport & city list", response=SearchResultsResponse.class )
     @ApiResponses(value={@ApiResponse(code =200, message="List retrived successfully"),
             @ApiResponse(code =500, message="Internal Server Error"),
             @ApiResponse(code =404, message="No Data Found")
