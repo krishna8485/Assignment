@@ -2257,3 +2257,323 @@ java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/fi
 2018-05-11 17:45:59.834  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : addFlightsAddFlightRequest{originAirport=Airport{iataCode='AAR', airportName='Aarhus', country='Denmark'}, destAirport=Airport{iataCode='AAL', airportName='Alborg', country='Denmark'}, fare='123'}
 2018-05-11 17:45:59.834  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.s.i.FlightServiceImpl                : Service addFlight********Aiprot Airport fare*********
 2018-05-11 17:45:59.834  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : new Flight details added[SearchResult{origin='AAR', destination='AAL', fare='123'}]
+2018-05-11 17:51:12.565  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2018-05-11 17:51:12.598  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-11 17:51:12.599  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-11 17:51:12.616  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.AprLifecycleListener             : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/krishnasfamily/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2018-05-11 17:51:13.064  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-11 17:51:13.066  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-11 17:51:13.066  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-11 17:51:13.074  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-11 17:51:13.081  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-11 17:51:16.206  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8081"]
+2018-05-11 17:51:16.206  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2018-05-11 17:51:16.206  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.c.StandardEngine                   : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-05-11 17:51:16.258  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xercesImpl.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-11 17:51:16.259  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/xml-apis.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-11 17:51:16.260  WARN Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.t.u.s.StandardJarScanner             : Failed to scan [file:/Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar] from classloader hierarchy
+java.io.FileNotFoundException: /Users/krishnasfamily/.gradle/caches/modules-2/files-2.1/xalan/xalan/2.7.0/a33c0097f1c70b20fa7ded220ea317eb3500515e/serializer.jar (No such file or directory)
+	at java.util.zip.ZipFile.open(Native Method)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225)
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155)
+	at java.util.jar.JarFile.<init>(JarFile.java:166)
+	at java.util.jar.JarFile.<init>(JarFile.java:130)
+	at org.apache.tomcat.util.compat.JreCompat.jarFileNewInstance(JreCompat.java:188)
+	at org.apache.tomcat.util.scan.JarFileUrlJar.<init>(JarFileUrlJar.java:65)
+	at org.apache.tomcat.util.scan.JarFactory.newInstance(JarFactory.java:49)
+	at org.apache.tomcat.util.scan.StandardJarScanner.process(StandardJarScanner.java:374)
+	at org.apache.tomcat.util.scan.StandardJarScanner.processURLs(StandardJarScanner.java:309)
+	at org.apache.tomcat.util.scan.StandardJarScanner.doScanClassPath(StandardJarScanner.java:266)
+	at org.apache.tomcat.util.scan.StandardJarScanner.scan(StandardJarScanner.java:229)
+	at org.apache.jasper.servlet.TldScanner.scanJars(TldScanner.java:262)
+	at org.apache.jasper.servlet.TldScanner.scan(TldScanner.java:104)
+	at org.apache.jasper.servlet.JasperInitializer.onStartup(JasperInitializer.java:101)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5204)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1421)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1411)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-11 17:51:16.261  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2018-05-11 17:51:16.263  INFO Krishnass-MacBook-Pro.local --- [ost-startStop-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2018-05-11 17:51:16.483  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8081"]
+2018-05-11 17:51:16.517  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-11 17:51:16.572  INFO Krishnass-MacBook-Pro.local --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-05-11 17:51:16.601  INFO Krishnass-MacBook-Pro.local --- [           main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-05-11 17:51:16.617  INFO Krishnass-MacBook-Pro.local --- [           main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-05-11 17:51:16.884  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2018-05-11 17:51:16.885  INFO Krishnass-MacBook-Pro.local --- [           main] o.a.t.u.n.NioSelectorPool                : Using a shared selector for servlet write/read
+2018-05-11 17:52:44.997  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-05-11 17:52:50.117  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames executedDEN
+2018-05-11 17:52:50.120  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.s.i.FlightServiceImpl                : Service findAirports*****************
+2018-05-11 17:52:50.123  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-11 17:52:50.124  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-11 17:52:50.124  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-11 17:52:50.133  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-11 17:52:51.232  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames executedDEN
+2018-05-11 17:52:51.232  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.s.i.FlightServiceImpl                : Service findAirports*****************
+2018-05-11 17:52:51.232  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-11 17:52:51.232  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-11 17:52:51.232  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-11 17:52:51.233  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-11 17:52:53.043  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames executedDEN
+2018-05-11 17:52:53.043  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.s.i.FlightServiceImpl                : Service findAirports*****************
+2018-05-11 17:52:53.043  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-11 17:52:53.043  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-11 17:52:53.044  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-11 17:52:53.044  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-11 17:52:53.983  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames executedDEN
+2018-05-11 17:52:53.983  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.s.i.FlightServiceImpl                : Service findAirports*****************
+2018-05-11 17:52:53.983  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-11 17:52:53.983  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-11 17:52:53.983  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-11 17:52:53.984  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-9] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-11 17:52:55.271  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.c.FlightSearchController             : info flight search executedAarhus ,Denmark,AAR Alborg ,Denmark,AAL
+2018-05-11 17:52:55.271  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.B.I.FlightBusinessImpl               : info flight search executed   Aarhus ,Denmark,AAR
+2018-05-11 17:52:55.271  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.B.I.FlightBusinessImpl               : strValidate  Aarhus ,Denmark,AAR
+2018-05-11 17:52:55.271  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.B.I.FlightBusinessImpl               :  origins 3
+2018-05-11 17:52:55.271  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.B.I.FlightBusinessImpl               :  origins AAR
+2018-05-11 17:52:55.271  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.B.I.FlightBusinessImpl               : info flight search executed   Alborg ,Denmark,AAL
+2018-05-11 17:52:55.271  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.B.I.FlightBusinessImpl               : strValidate  Alborg ,Denmark,AAL
+2018-05-11 17:52:55.272  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.B.I.FlightBusinessImpl               :  origins 3
+2018-05-11 17:52:55.272  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.B.I.FlightBusinessImpl               :  origins AAL
+2018-05-11 17:52:55.272  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.B.I.FlightBusinessImpl               : IATA CODE : AAR : AAL
+2018-05-11 17:52:55.272  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.s.i.FlightServiceImpl                : Service addFlight********str str*********
+2018-05-11 17:52:55.272  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.d.i.FlightDAOImpl                    : iDAO findFlights
+2018-05-11 17:52:55.272  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.B.I.FlightBusinessImpl               : flightResultsDTo []
+2018-05-11 17:52:55.276 ERROR Krishnass-MacBook-Pro.local --- [nio-8080-exec-2] c.l.E.CustomizedExceptionHandler         : Exception +
+com.lukkien.Exception.NotFoundException: No Data
+	at com.lukkien.controller.FlightSearchController.getResults(FlightSearchController.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:209)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:136)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:877)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:783)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:991)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:866)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:851)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:158)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.filterAndRecordMetrics(WebMvcMetricsFilter.java:126)
+	at org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:111)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.web.trace.servlet.HttpTraceFilter.doFilterInternal(HttpTraceFilter.java:84)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:496)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2018-05-11 17:52:58.837  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames executedDEN
+2018-05-11 17:52:58.837  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.s.i.FlightServiceImpl                : Service findAirports*****************
+2018-05-11 17:52:58.837  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-11 17:52:58.837  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-11 17:52:58.837  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-11 17:52:58.837  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-1] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-11 17:52:59.917  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames executedDEN
+2018-05-11 17:52:59.917  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.s.i.FlightServiceImpl                : Service findAirports*****************
+2018-05-11 17:52:59.917  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-11 17:52:59.917  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-11 17:52:59.917  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-11 17:52:59.917  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-3] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-11 17:53:01.718  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames executedDEN
+2018-05-11 17:53:01.718  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.s.i.FlightServiceImpl                : Service findAirports*****************
+2018-05-11 17:53:01.718  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-11 17:53:01.719  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-11 17:53:01.719  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-11 17:53:01.719  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-5] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-11 17:53:03.032  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames executedDEN
+2018-05-11 17:53:03.032  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.s.i.FlightServiceImpl                : Service findAirports*****************
+2018-05-11 17:53:03.033  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAR , name=Aarhus  Denmark
+2018-05-11 17:53:03.033  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= ADE , name=Aden - Aden International Airport  Yemen
+2018-05-11 17:53:03.033  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.d.i.FlightDAOImpl                    : Airport [code= AAL , name=Alborg  Denmark
+2018-05-11 17:53:03.033  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-4] c.l.c.FlightSearchController             : info getAirportNames are more
+2018-05-11 17:53:06.108  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.c.FlightSearchController             : addFlightsAddFlightRequest{originAirport=Airport{iataCode='AAR', airportName='Aarhus', country='Denmark'}, destAirport=Airport{iataCode='AAL', airportName='Alborg', country='Denmark'}, fare='123'}
+2018-05-11 17:53:06.108  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.s.i.FlightServiceImpl                : Service addFlight********Aiprot Airport fare*********
+2018-05-11 17:53:06.108  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-8] c.l.d.i.FlightDAOImpl                    : new Flight details added[SearchResult{origin='AAR', destination='AAL', fare='123'}]
+2018-05-11 17:53:12.791  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.c.FlightSearchController             : addFlightsAddFlightRequest{originAirport=Airport{iataCode='AAR', airportName='Aarhus', country='Denmark'}, destAirport=Airport{iataCode='AAL', airportName='Alborg', country='Denmark'}, fare='122'}
+2018-05-11 17:53:12.791  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.s.i.FlightServiceImpl                : Service addFlight********Aiprot Airport fare*********
+2018-05-11 17:53:12.791  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-7] c.l.d.i.FlightDAOImpl                    : new Flight details added to existing list[SearchResult{origin='AAR', destination='AAL', fare='123'}, SearchResult{origin='AAR', destination='AAL', fare='122'}]
+2018-05-11 17:53:17.028  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.c.FlightSearchController             : addFlightsAddFlightRequest{originAirport=Airport{iataCode='AAR', airportName='Aarhus', country='Denmark'}, destAirport=Airport{iataCode='AAL', airportName='Alborg', country='Denmark'}, fare='121'}
+2018-05-11 17:53:17.028  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.s.i.FlightServiceImpl                : Service addFlight********Aiprot Airport fare*********
+2018-05-11 17:53:17.028  INFO Krishnass-MacBook-Pro.local --- [nio-8080-exec-6] c.l.d.i.FlightDAOImpl                    : new Flight details added to existing list[SearchResult{origin='AAR', destination='AAL', fare='123'}, SearchResult{origin='AAR', destination='AAL', fare='122'}, SearchResult{origin='AAR', destination='AAL', fare='121'}]
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : info flight search executedAarhus ,Denmark,AAR Alborg ,Denmark,AAL
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.B.I.FlightBusinessImpl               : info flight search executed   Aarhus ,Denmark,AAR
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.B.I.FlightBusinessImpl               : strValidate  Aarhus ,Denmark,AAR
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.B.I.FlightBusinessImpl               :  origins 3
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.B.I.FlightBusinessImpl               :  origins AAR
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.B.I.FlightBusinessImpl               : info flight search executed   Alborg ,Denmark,AAL
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.B.I.FlightBusinessImpl               : strValidate  Alborg ,Denmark,AAL
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.B.I.FlightBusinessImpl               :  origins 3
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.B.I.FlightBusinessImpl               :  origins AAL
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.B.I.FlightBusinessImpl               : IATA CODE : AAR : AAL
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.s.i.FlightServiceImpl                : Service addFlight********str str*********
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.d.i.FlightDAOImpl                    : iDAO findFlights
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.B.I.FlightBusinessImpl               : flightResultsDTo [SearchResult{origin='AAR', destination='AAL', fare='123'}, SearchResult{origin='AAR', destination='AAL', fare='122'}, SearchResult{origin='AAR', destination='AAL', fare='121'}]
+2018-05-11 17:53:23.074  INFO Krishnass-MacBook-Pro.local --- [io-8080-exec-10] c.l.c.FlightSearchController             : flight results size : flightsResults.size()
