@@ -14,6 +14,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Component;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Component
@@ -40,7 +41,11 @@ public class FlightBusinessImpl implements com.lukkien.Business.FlightBusiness {
         logger.info("IATA CODE : " + originIataCode +" : " +destIataCode);
         List<SearchResult> flightsResults = null;
         flightsResults = flightServiceImpl.findFlights(originIataCode, destIataCode);
-        logger.info("flightResultsDTo "+ flightsResults.toString());
+        if (flightsResults!=null) {
+            logger.info("flightResultsDTo " + flightsResults.toString());
+        } else {
+            flightsResults = new ArrayList<>();
+        }
         return flightsResults;
     }
 
@@ -71,8 +76,6 @@ public class FlightBusinessImpl implements com.lukkien.Business.FlightBusiness {
     /**
      *
      * @param strValidate
-     * @return
-     * @throws NotFoundException
      * @throws BadRequestException
      */
     private String checkData(String strValidate) throws BadRequestException {

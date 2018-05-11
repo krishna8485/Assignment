@@ -27,7 +27,7 @@ public class CustomizedExceptionHandler extends ResponseEntityExceptionHandler {
     }
 
     @ExceptionHandler({NotFoundException.class, ApplicationBusinessException.class})
-    public final ResponseEntity<ErrorResponse> handleNotFoundException(NotFoundException ex, WebRequest request) {
+    public final ResponseEntity<ErrorResponse> handleNotFoundBusinessException(NotFoundException ex, WebRequest request) {
         logger.error("Exception +", ex);
         ErrorResponse errorResponse = new ErrorResponse(new Date(), ex.getMessage(),
                 request.getDescription(false));

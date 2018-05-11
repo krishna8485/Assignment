@@ -64,7 +64,7 @@ public class FlightSearchController {
             String destination) throws NotFoundException, BadRequestException {
         logger.info("info flight search executed" + origin +" " +destination);
         List<SearchResult>  searchResults= flightBusinessImpl.findFlights(origin, destination);
-        if (searchResults.size() >0 ){
+        if (searchResults != null && searchResults.size() >0 ){
             logger.info("flight results size : flightsResults.size()" );
             SearchResultsResponse searchResultsResponse = new SearchResultsResponse
                     (new Date(), "","", searchResults);
@@ -94,7 +94,7 @@ public class FlightSearchController {
         List<Airport> airportList= null;
             airportList = flightBusinessImpl.findAirports(queryString);
         AiportsResponse jsonResponse = new AiportsResponse(new Date (), "","", airportList);
-        if (airportList.size() >0 ){
+        if (airportList!=null && airportList.size() >0 ){
             logger.info("info getAirportNames are more" );
             return new ResponseEntity<>(jsonResponse, HttpStatus.OK);
         } else {
