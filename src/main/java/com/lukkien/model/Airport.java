@@ -1,8 +1,12 @@
 package com.lukkien.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import java.io.Serializable;
 import java.util.Objects;
 
+@ApiModel
 public class Airport implements Serializable {
 
     private  String iataCode;
@@ -18,14 +22,17 @@ public class Airport implements Serializable {
         this.country = country;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.lang.String", example ="Denmark")
     public String getCountry() {
         return country;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.lang.String", example="AAL")
     public String getIataCode() {
         return iataCode;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.lang.String", example="Alborg")
     public String getAirportName() {
         return airportName;
     }

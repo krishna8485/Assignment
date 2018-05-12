@@ -1,12 +1,18 @@
 package com.lukkien.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import java.util.Objects;
 
+@ApiModel
 public class AddFlightRequest {
+
     Airport originAirport;
     Airport destAirport;
     String fare;
 
+    @ApiModelProperty(required = true, dataType = "com.lukkien.model.Airport")
     public Airport getOriginAirport() {
         return originAirport;
     }
@@ -15,6 +21,7 @@ public class AddFlightRequest {
         this.originAirport = originAirport;
     }
 
+    @ApiModelProperty(required = true, dataType = "com.lukkien.model.Airport")
     public Airport getDestAirport() {
         return destAirport;
     }
@@ -23,6 +30,7 @@ public class AddFlightRequest {
         this.destAirport = destAirport;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.lang.String", example = "1234")
     public String getFare() {
         return fare;
     }

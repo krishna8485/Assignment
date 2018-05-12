@@ -1,7 +1,11 @@
 package com.lukkien.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import java.util.Objects;
 
+@ApiModel
 public class SearchResult {
 
     private String origin;
@@ -14,6 +18,7 @@ public class SearchResult {
         this.fare = fare;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.lang.String", example="AAR")
     public String getOrigin() {
         return origin;
     }
@@ -22,6 +27,7 @@ public class SearchResult {
         this.origin = origin;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.lang.String", example="AAL")
     public String getDestination() {
         return destination;
     }
@@ -30,6 +36,7 @@ public class SearchResult {
         this.destination = destination;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.lang.String", example="1234")
     public String getFare() {
         return fare;
     }

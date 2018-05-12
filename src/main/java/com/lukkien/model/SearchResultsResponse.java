@@ -1,9 +1,13 @@
 package com.lukkien.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 
+@ApiModel
 public class SearchResultsResponse{
 
     public SearchResultsResponse(Date timestamp, String message, String details, List<SearchResult> data) {
@@ -20,6 +24,7 @@ public class SearchResultsResponse{
     private String details;
     private List<SearchResult> data;
 
+    @ApiModelProperty(required = true, dataType = "java.util.Date")
     public Date getTimestamp() {
         return timestamp;
     }
@@ -28,6 +33,7 @@ public class SearchResultsResponse{
         this.timestamp = timestamp;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.lang.String")
     public String getMessage() {
         return message;
     }
@@ -36,6 +42,7 @@ public class SearchResultsResponse{
         this.message = message;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.lang.String")
     public String getDetails() {
         return details;
     }
@@ -44,6 +51,7 @@ public class SearchResultsResponse{
         this.details = details;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.util.List<SearchResult>")
     public List<SearchResult> getData() {
         return data;
     }

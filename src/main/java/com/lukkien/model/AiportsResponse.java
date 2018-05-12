@@ -1,9 +1,13 @@
 package com.lukkien.model;
 
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+
 import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 
+@ApiModel
 public class AiportsResponse {
 
 
@@ -20,7 +24,7 @@ public class AiportsResponse {
     private String details;
     private List<Airport> data;
 
-
+    @ApiModelProperty(required = true, dataType = "java.util.Date")
     public Date getTimestamp() {
         return timestamp;
     }
@@ -29,6 +33,7 @@ public class AiportsResponse {
         this.timestamp = timestamp;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.lang.String")
     public String getMessage() {
         return message;
     }
@@ -37,6 +42,7 @@ public class AiportsResponse {
         this.message = message;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.lang.String")
     public String getDetails() {
         return details;
     }
@@ -45,6 +51,7 @@ public class AiportsResponse {
         this.details = details;
     }
 
+    @ApiModelProperty(required = true, dataType = "java.util.List<Airport>")
     public List<Airport> getData() {
         return data;
     }
