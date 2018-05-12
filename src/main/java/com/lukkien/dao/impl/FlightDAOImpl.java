@@ -13,11 +13,12 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
+import java.util.concurrent.ConcurrentHashMap;
 
 @Repository("flightDoaImpl")
 public class FlightDAOImpl implements FlightDAO{
 
-    private static Map<String, List<SearchResult>>  flightMap= new HashMap<>();
+    private static Map<String, List<SearchResult>>  flightMap= new ConcurrentHashMap<>();
 
     private static final Logger logger = LogManager.getLogger(FlightDAOImpl.class);
 
