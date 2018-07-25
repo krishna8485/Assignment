@@ -4,8 +4,11 @@ import com.lukkien.Exception.ApplicationServiceException;
 import com.lukkien.dao.FlightDAO;
 import com.lukkien.model.Airport;
 import com.lukkien.model.SearchResult;
+import com.lukkien.repository.AirportRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 import springfox.documentation.annotations.Cacheable;
 
@@ -15,8 +18,11 @@ import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
-@Repository("flightDoaImpl")
+@Component("flightDoaImpl")
 public class FlightDAOImpl implements FlightDAO{
+
+    @Autowired
+    private AirportRepository airportRepository;
 
     private static Map<String, List<SearchResult>>  flightMap= new ConcurrentHashMap<>();
 
@@ -57,6 +63,7 @@ public class FlightDAOImpl implements FlightDAO{
                 if(line.toLowerCase().contains(airportStr.toLowerCase())){
                     String[] airport = line.split(cvsSplitBy);
                     airportList.add(new Airport(airport[2], airport[0], airport[1]));
+                    airportRepository.save(new com.lukkien.Entities.Airport(airport[2], airport[0], airport[1]));
                     logger.info("Airport [code= " + airport[2] + " , name=" + airport[0] + "  " + airport[1]);
                 }
             }
